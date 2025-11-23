@@ -97,13 +97,13 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\+|-|\*|/|%|=</string>
+					<string>\+|-|\*|/|%|\^|(?&lt;![=&lt;&gt;!])=(?!=)</string>
 					<key>name</key>
 					<string>keyword.operator.arithmetical.scad</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>&lt;|&lt;=|==|!=|&gt;=|&gt;</string>
+					<string>&lt;=?|==|!=|&gt;=?</string>
 					<key>name</key>
 					<string>keyword.operator.relational.scad</string>
 				</dict>
