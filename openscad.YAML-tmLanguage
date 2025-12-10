@@ -36,9 +36,9 @@ repository:
     - name: keyword.other.scad
       match: \b(assign|assert)\b
     - name: keyword.operator.arithmetical.scad
-      match: '\+|-|\*|/|%|='
+      match: '\+|-|\*|/|%|\^|(?<![=<>!])=(?!=)'
     - name: keyword.operator.relational.scad
-      match: '<|<=|==|!=|>=|>'
+      match: '<=?|==|!=|>=?'
     - name: keyword.operator.logical.scad
       match: '&&|\|\||!'
     - name: keyword.operator.conditional.scad
